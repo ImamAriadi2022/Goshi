@@ -11,11 +11,11 @@ function NavbarApp() {
           <img
             src="image.png"
             alt="Logo"
-            width="40"
-            height="40"
+            width="70"
+            height="70"
             className="d-inline-block align-top"
           />
-          {' '}Goshi
+          {' '}
         </Navbar.Brand>
 
         {/* Toggle for Mobile */}

@@ -1,0 +1,7 @@
+.image-uniform {
+    width: 100%; /* Membuat gambar mengikuti lebar kontainer */
+    height: 300px; /* Atur tinggi seragam */
+    object-fit: cover; /* Memastikan gambar memenuhi area tanpa merusak proporsi */
+    border-radius: 10px; /* Opsional: Menambahkan sudut melengkung */
+  }
+  
