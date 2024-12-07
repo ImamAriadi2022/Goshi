@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row, Col, Card, Button, Image } from 'react-bootstrap';
+import { Button, Card, Col, Container, Image, Row } from 'react-bootstrap';
 import './CoursesSection.css'; // Optional, for additional styling
 
 function CoursesSection() {
@@ -40,12 +40,12 @@ function CoursesSection() {
     { name: 'M Zaki Maulana', expertise: 'UI/UX Designer', image: './jaki.jpg' },
     { name: 'Shafa Andhika & M Al Khairu Akbar', expertise: 'Conten Planner & Content Creator', image: './marketing.jpg' },
     { name: 'Agnes Angraini', expertise: 'Support', image: './agnes.jpg' },
-    { name: 'Ibu', expertise: 'Physics & Mathematics', image: 'https://joinkursus.com/wp-content/uploads/2024/02/WhatsApp-Image-2024-02-09-at-17.12.36-1-529x1024.jpeg' },
+    { name: 'Marida', expertise: 'Bendahara Umum', image: 'https://joinkursus.com/wp-content/uploads/2024/02/WhatsApp-Image-2024-02-09-at-17.12.36-1-529x1024.jpeg' },
   ];
 
   return (
     <>
-      <div className="courses-section py-5 bg-light">
+      <div className="courses-section py-5 bg-light" idName="kursus" id="kursus">
         <Container>
           <h2 className="text-center mb-4">Kursus Yang Kami Siapkan Untuk Anda</h2>
           <Row className="mb-5">
@@ -105,7 +105,7 @@ function CoursesSection() {
             {team.map((member, index) => (
                 <Col key={index} md={6} className="mb-4 text-center">
                 <Card className="h-100">
-                    <div style={{ width: '100%', height: '400px', overflow: 'hidden' }}>
+                    <div style={{ width: '100%', height: '600px', overflow: 'hidden' }}>
                     <Image 
                         src={member.image} 
                         alt={member.name} 
@@ -149,7 +149,7 @@ function CoursesSection() {
       </div>
 
 
-      <footer className="footer bg-dark text-light py-5 mt-5">
+      <footer className="footer bg-dark text-light py-5 mt-5" idName="contact" id="contact">
         <Container>
           <Row>
             <Col md={4} className="mb-3">
@@ -181,7 +181,7 @@ function CoursesSection() {
           </Row>
 
           <div className="text-center mt-4">
-            <p className="mb-0">&copy; 2024 JoinKursus. All rights reserved. Designed by KADIN Digital Institute.</p>
+            <p className="mb-0">&copy; 2024 JoinKursus. All rights reserved. Designed by TERALAB and Imam Ariadi.</p>
           </div>
         </Container>
       </footer>

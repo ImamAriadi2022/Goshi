@@ -16,7 +16,7 @@ function AboutPage() {
   ];
 
   return (
-    <div className="about-page py-5 bg-light">
+    <div className="about-page py-5 bg-light" id="about">
       <Container>
         <h2 className="text-center mb-4">Tentang Kami</h2>
         <p className="text-center mb-5">

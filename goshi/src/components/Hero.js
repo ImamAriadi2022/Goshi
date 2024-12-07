@@ -4,14 +4,14 @@ import './HeroSection.css'; // Optional, for custom styles
 
 function HeroSection() {
   return (
-    <div className="hero-section bg-light text-center py-5 heroSec">
+    <div className="hero-section bg-light text-center py-5 heroSec" idName="home" id="home">
       <Container>
         <Row className="align-items-center">
           <Col md={6} className="text-md-start">
             <h1 className="display-4 fw-bold">Welcome to Goshi</h1>
             <p className="lead">Empowering Digital Entrepreneurs to Shape the Future</p>
             <Button href="#about" variant="primary" className="me-2">Learn More</Button>
-            <Button href="#contact" variant="outline-primary">Get Started</Button>
+            <Button href="#kursus" variant="outline-primary">Get Started</Button>
           </Col>
           <Col md={6} className="text-center">
             <img
